@@ -29,6 +29,37 @@
 <script type="text/javascript">
 rMateChartH5.licenseURL="http://58.181.28.55/rMateChartH5Web_v3.0_PR/LicenseKey/rMateChartH5License.js";
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>rMate Chart for HTML5</title>
+
+<!-- IE7, 8 에서 차트 생성하고자 하는 경우 -->
+<!--[if IE]><script language="javascript" type="text/javascript" src="http://demo.riamore.net/HTML5demo/chart/rMateChartH5/JS/excanvas.js"></script><![endif]-->
+
+<!-- rMateChartH5 라이센스 -->
+<script language="javascript" type="text/javascript" src="http://miaps.thinkm.co.kr/rMateChartH5Web_v3.0_PR/LicenseKey/rMateChartH5License.js"></script>
+
+<!-- 실제적인 rMateChartH5 라이브러리 -->
+<!-- <script language="javascript" type="text/javascript" src="http://miaps.thinkm.co.kr/rMateChartH5Web_v3.0_PR/rMateChartH5/JS/rMateChartH5.js"></script> -->
+
+<!-- 레이더차트 추가 -->
+<!-- <script language="javascript" type="text/javascript" src="http://miaps.thinkm.co.kr/rMateChartH5Web_v3.0_PR/rMateChartH5/JS/rMateRadarChartH5.js"></script> -->
+
+<!-- 혼용 차트 추가 -->
+<script language="javascript" type="text/javascript" src="http://miaps.thinkm.co.kr/rMateChartH5Web_v3.0_PR/rMateChartH5/JS/rMateIntegrationH5.js"></script>
+
+
+<!-- 차트 생성과 관련없음. 샘플을 위한 스크립트. 따라서 실제 적용 시 생략하십시오. -->
+<!-- <script language="javascript" type="text/javascript" src="http://demo.riamore.net/HTML5demo/chart/Samples/sampleHelper.js"></script> -->
+
+<script type="text/javascript">
+rMateChartH5.licenseURL="http://58.181.28.55/rMateChartH5Web_v3.0_PR/LicenseKey/rMateChartH5License.js";
+
 // -----------------------차트 설정 시작-----------------------
 
 // -----------------------차트 설정 시작-----------------------
@@ -150,6 +181,17 @@ function rMateChartH5ChangeTheme(theme){
     document.getElementById("chart1").setTheme(theme);
 }
  
+// -----------------------차트 설정 끝 -----------------------
+
+</script>
+</head>
+<body topmargin=0 leftmargin=0 scroll="no">
+<div id="chartHolder" style="width:1280px; height:900px;">
+</div>
+</body>
+</html>
+
+
 // -----------------------차트 설정 끝 -----------------------
 
 </script>
